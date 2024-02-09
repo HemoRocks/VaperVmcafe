@@ -42,9 +42,7 @@ export default function Home() {
       }
     } else{
         setinvalid(true);
-        if(invalid == true){
-          settextP("Either the email or the phone number is invalid")
-        }else{settextP("")}
+        settextP("Either the email or the phone number is invalid")
     }
     
   };
