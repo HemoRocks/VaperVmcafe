@@ -105,9 +105,11 @@
 .coffee_text {
   font-family: 'Segoe UI';
   font-weight: bold;
-  color: rgb(166, 157, 26);
+  color: rgb(128, 120, 8);
   margin-right: 35px;
   margin-left: 10px;
   margin-top: 50px;
-  font-size: large;
+  font-size:larger;
+  text-align: justify;
+  text-indent: 50px;
 }
