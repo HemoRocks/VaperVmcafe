@@ -1,4 +1,5 @@
 ## Running the JSON server
+cd src/data
 npx json-server userdata.json -p 3500
 
 ## Getting Started
