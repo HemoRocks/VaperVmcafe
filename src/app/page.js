@@ -13,7 +13,7 @@ export default function Home() {
     return email.includes('@') && email.includes('.');
   };
   const validatePhoneNumber = (input_str) => {
-    const re = /^\d{10}$/;
+    const re = /^05\d{8}$/;
     return re.test(input_str);
   }
 
@@ -65,7 +65,7 @@ export default function Home() {
           <p className={styles.textInputlabel}>Phone Number</p>
           <input
             type="tel"
-            placeholder="0550000000"
+            placeholder="05XXXXXXXX"
             value={phone}
             required
             pattern="[0-9]{10}"
